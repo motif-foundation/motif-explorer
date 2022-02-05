@@ -1,0 +1,34 @@
+# App artifacts
+HOWTO.md
+.HOWTO.md
+/_build
+/apps/*/cover
+/apps/*/logs
+/cover
+/db
+/deps
+/doc
+/*.ez
+/logs
+
+# Generated on crash by the VM
+erl_crash.dump
+
+# Generated on crash by NPM
+npm-debug.log
+ 
+/apps/**/node_modules
+
+/apps/*/priv/static/
+
+/apps/*/config/*.secret.exs
+ 
+screenshots/
+ 
+.sobelow
+
+# osx 
+.DS_Store
+
+# mix phx.gen.cert self-signed certs for dev
+/apps/block_scout_web/priv/cert

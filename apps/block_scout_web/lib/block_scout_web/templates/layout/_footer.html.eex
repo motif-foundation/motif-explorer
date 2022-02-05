@@ -1,0 +1,29 @@
+<footer class="footer">
+  <div class="footer-body container">
+    <!-- Logo -->
+    <div class="row footer-logo-row">
+      <div>
+        <%= link to: chain_path(@conn, :show), class: "footer-brand" do %>
+          <img class="footer-logo" src="<%= logo_footer() %>"  />
+        <% end %>
+      </div>
+    </div>
+
+    <div class="row">
+      <div>
+        <p class="footer-info-text"><%= gettext("Motif Blockchain Explorer") %></p>
+        <div class="footer-social-icons">
+          <a href="https://github.com/motifdev" rel="noreferrer" target="_blank" class="footer-social-icon" title='<%= gettext("Github") %>'>
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="https://twitter.com/motiffoundation" rel="noreferrer" target="_blank" class="footer-social-icon" title='<%= gettext("Twitter") %>'>
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="https://t.me/motiffoundation" rel="noreferrer" target="_blank" class="footer-social-icon" title='<%= gettext("Telegram") %>'>
+            <i class="fab fa-telegram-plane"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
