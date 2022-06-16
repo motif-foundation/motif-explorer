@@ -11,8 +11,7 @@
 
     <div class="row">
       <div>
-        <p class="footer-info-text"><%= gettext("Motif Blockchain Explorer © 2022") %></p>
-        <p class="footer-info-text"><%= gettext("Powered by Blockscout") %></p>
+        <p class="footer-info-text"><%= gettext("Motif Blockchain Explorer © 2022") %></p> 
         <div class="footer-social-icons">
           <a href="https://github.com/motif-foundation" rel="noreferrer" target="_blank" class="footer-social-icon" title='<%= gettext("Github") %>'>
             <i class="fab fa-github"></i>
